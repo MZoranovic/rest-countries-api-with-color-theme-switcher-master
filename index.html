@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./create-node.js" defer></script>
+    <script src="./state.js" defer></script>
+    <script src="./theme.js" defer></script>
+    <script src="./api.js" defer></script>
+    <script src="./render.js" defer></script>
+    <script src="./single-card.js" defer></script>
+    <script src="./country-information.js" defer></script>
+    <script src="./input-field.js" defer></script>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h5>Where in the world?</h5>
+      <div class="switch-input">
+        <img src="./assets/sun.svg" alt="" />
+        <div class="switch">
+          <input type="checkbox" name="page" id="switch" />
+          <label for="switch">
+            <span></span>
+          </label>
+        </div>
+        <img src="./assets/moon.svg" alt="" />
+      </div>
+    </header>
+    <div class="top"></div>
+    <div class="back"></div>
+    <main></main>
+    <div class="toast">
+      <div class="warning">
+        <h1>No result!</h1>
+      </div>
+      <!-- <a href="./index.html"><button class="toastBtn">OK</button></a> -->
+    </div>
+  </body>
+</html>
